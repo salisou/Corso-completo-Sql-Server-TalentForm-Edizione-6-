@@ -1,3 +1,5 @@
+
+
 CREATE DATABASE ScuolaDb;
 GO
 
@@ -118,7 +120,7 @@ CREATE TABLE docentiCorso
 
 
 -- Modifica del nome della tabella 
-EXEC sp_rename 'docentiCorso', 'DocentiCorso';
+--EXEC sp_rename 'docentiCorso', 'DocentiCorso';
 
-SELECT *
-FROM DocentiCorso;
+--SELECT *
+--FROM DocentiCorso;
