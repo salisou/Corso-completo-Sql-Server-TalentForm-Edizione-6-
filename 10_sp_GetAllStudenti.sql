@@ -20,3 +20,5 @@ BEGIN
 END
 GO
 
+-- Execute the procedure
+EXEC sp_GetAllStudenti;

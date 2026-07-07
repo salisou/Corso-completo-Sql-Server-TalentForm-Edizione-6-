@@ -24,6 +24,6 @@ END
 GO
 
 -- Esecuzione della procedure 
-EXEC sp_GetStudenteById 5;
+EXEC sp_GetStudenteById 1;
 
 EXEC sp_GetStudenteById @studenteId = 5;
